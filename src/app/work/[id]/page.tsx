@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, useParams } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowLeft, ExternalLink, Github } from 'lucide-react'
@@ -13,22 +13,19 @@ import { Gallery } from '@/components/gallery'
 import { useContent } from '@/lib/content'
 import { CaseStudy } from '@/types/content'
 
-interface PageProps {
-  params: {
-    id: string
-  }
-}
-
 // Metadata is now handled in a separate metadata.ts file
 
-export default function WorkPage({ params }: PageProps) {
+export default function WorkPage() {
   const router = useRouter()
+  const params = useParams<{ id: string | string[] }>()
+  const id = Array.isArray(params?.id) ? params.id[0] : params?.id
   const { content, isLoading, error } = useContent()
   const [project, setProject] = useState<CaseStudy | null>(null)
   
   useEffect(() => {
+    if (!id) return
     if (content?.caseStudies) {
-      const foundProject = content.caseStudies.find(p => p.slug === params.id)
+      const foundProject = content.caseStudies.find(p => p.slug === id)
       if (foundProject) {
         setProject(foundProject)
       } else if (!isLoading) {
@@ -36,7 +33,7 @@ export default function WorkPage({ params }: PageProps) {
         router.replace('/work')
       }
     }
-  }, [content, params.id, isLoading])
+  }, [content, id, isLoading])
   
   if (isLoading) {
     return (
@@ -65,7 +62,7 @@ export default function WorkPage({ params }: PageProps) {
   }
   
   // Find the index of the current project for navigation
-  const projectIndex = content?.caseStudies?.findIndex(p => p.slug === params.id) ?? -1
+  const projectIndex = content?.caseStudies?.findIndex(p => p.slug === id) ?? -1
   const prevProject = projectIndex > 0 ? content?.caseStudies?.[projectIndex - 1] : null
   const nextProject = projectIndex < (content?.caseStudies?.length ?? 0) - 1 ? content?.caseStudies?.[projectIndex + 1] : null
   
