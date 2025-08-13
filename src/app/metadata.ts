@@ -15,10 +15,4 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Tony Destin - Product Engineer & Designer',
-    description: 'Building digital products that people love to use.',
-    images: ['/images/og/home.jpg'],
-  },
 }

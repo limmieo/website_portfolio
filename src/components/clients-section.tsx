@@ -12,7 +12,7 @@ interface ClientLogo {
 }
 
 const ClientsSection = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
   // Company logos from the company-logos folder
   const clientLogos: ClientLogo[] = [
@@ -66,23 +66,12 @@ const ClientsSection = () => {
     },
   ];
 
+  // Always visible (no scroll-gated animation)
   useEffect(() => {
-    const handleScroll = () => {
-      const element = document.getElementById('clients-section');
-      if (element) {
-        const elementTop = element.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-        if (elementTop < windowHeight * 0.8) {
-          setIsVisible(true);
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Check on initial load
-    
-    return () => window.removeEventListener('scroll', handleScroll);
+    setIsVisible(true);
   }, []);
+
+  // No carousel logic needed anymore
 
   return (
     <section id="clients-section" className="py-16 bg-gray-50 dark:bg-gray-900">
@@ -91,35 +80,35 @@ const ClientsSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-12"
+          className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Trusted By</h2>
-          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Worked With</h2>
+          <p className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto text-xl md:text-2xl">
             I've had the privilege to work with some amazing companies throughout my career
           </p>
         </motion.div>
 
-        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 md:gap-20 max-w-6xl mx-auto">
           {clientLogos.map((logo, index) => (
             <motion.div
-              key={index}
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={isVisible ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
-              transition={{
-                duration: 0.5,
-                delay: 0.1 * index,
-                ease: "easeOut",
-              }}
+              key={`${logo.alt}-${index}`}
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={isVisible ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.95 }}
+              transition={{ duration: 0.4, delay: 0.1 * index, ease: "easeOut" }}
               whileHover={{ scale: 1.05 }}
-              className="relative h-16 w-32 flex items-center justify-center"
+              className="relative h-32 sm:h-36 flex items-center justify-center p-4 rounded-xl border bg-white dark:bg-zinc-900 shadow-sm"
             >
-              <Image
-                src={logo.src}
+              <img
+                src={encodeURI(logo.src)}
                 alt={logo.alt}
-                width={logo.width || 120}
-                height={logo.height || 40}
-                className="object-contain h-full w-full grayscale hover:grayscale-0 transition-all duration-300 opacity-80 hover:opacity-100"
+                width={logo.width || 260}
+                height={logo.height || 100}
+                className="object-contain h-full w-full"
+                loading="eager"
               />
+              <span className="absolute bottom-1 left-1 right-1 text-center text-xs text-muted-foreground pointer-events-none">
+                {logo.alt}
+              </span>
             </motion.div>
           ))}
         </div>

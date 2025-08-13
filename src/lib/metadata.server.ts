@@ -76,13 +76,6 @@ export async function generateMetadata({
       ...(section && { section }),
       ...(tags.length > 0 && { tags }),
     },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [image.url],
-      creator: '@tonydestin',
-    },
     robots: {
       index: true,
       follow: true,

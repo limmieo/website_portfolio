@@ -22,19 +22,19 @@ type NavItem = {
 const mainNav: NavItem[] = [
   {
     title: 'Work',
-    href: '/work',
+    href: '/#work',
   },
   {
     title: 'Systems',
-    href: '/systems',
+    href: '/#systems',
   },
   {
     title: 'About',
-    href: '/about',
+    href: '/#about',
   },
   {
     title: 'Contact',
-    href: '/contact',
+    href: '/#contact',
   },
 ]
 
@@ -86,7 +86,7 @@ export function SiteHeader() {
             </DropdownMenuContent>
           </DropdownMenu>
           <Button asChild className="ml-2 hidden md:flex">
-            <Link href="/contact">Let's Talk</Link>
+            <Link href="/#contact">Let's Talk</Link>
           </Button>
         </div>
       </div>

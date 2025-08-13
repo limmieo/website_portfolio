@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Mail, Twitter, Github, Linkedin } from 'lucide-react'
+import { Mail, Github, Linkedin } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
@@ -15,11 +15,6 @@ const socialLinks: SocialLink[] = [
     name: 'Email',
     href: 'mailto:hi@tonydestin.com',
     icon: Mail,
-  },
-  {
-    name: 'Twitter',
-    href: 'https://twitter.com/tonydestin',
-    icon: Twitter,
   },
   {
     name: 'GitHub',
@@ -55,7 +50,6 @@ const footerLinks: FooterLink[] = [
   {
     title: 'Connect',
     items: [
-      { title: 'Twitter', href: 'https://twitter.com/tonydestin', external: true },
       { title: 'GitHub', href: 'https://github.com/tonydestin', external: true },
       { title: 'LinkedIn', href: 'https://linkedin.com/in/tonydestin', external: true },
       { title: 'Email', href: 'mailto:hi@tonydestin.com' },

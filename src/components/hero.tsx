@@ -12,7 +12,7 @@ interface HeroProps {
   roles: string[]
   tagline: string
   taglines?: string[] // Multiple taglines for dynamic rotation
-  ctaPrimary: {
+  ctaPrimary?: {
     text: string
     href: string
   }
@@ -74,12 +74,14 @@ export function Hero({ name, roles, tagline, taglines, ctaPrimary, ctaSecondary,
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              <Button asChild size="lg" className="group">
-                <Link href={ctaPrimary.href}>
-                  {ctaPrimary.text}
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Link>
-              </Button>
+              {ctaPrimary && ctaPrimary.text && ctaPrimary.href && (
+                <Button asChild size="lg" className="group">
+                  <Link href={ctaPrimary.href}>
+                    {ctaPrimary.text}
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
+                </Button>
+              )}
               <Button asChild variant="outline" size="lg">
                 <Link href={ctaSecondary.href} className="flex items-center">
                   {ctaSecondary.text}
@@ -95,8 +97,11 @@ export function Hero({ name, roles, tagline, taglines, ctaPrimary, ctaSecondary,
               transition={{ duration: 0.5, delay: 0.4 }}
             >
               <p className="flex items-center text-sm text-muted-foreground">
-                <span className="mr-2 inline-block h-2 w-2 rounded-full bg-green-500"></span>
-                Available for select freelance projects
+                <span className="relative mr-2 inline-flex h-2 w-2 items-center justify-center">
+                  <span className="absolute inline-flex h-3 w-3 rounded-full bg-green-400 opacity-75 animate-ping"></span>
+                  <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
+                </span>
+                Available for full-time roles and projects
               </p>
             </motion.div>
 
@@ -114,12 +119,24 @@ export function Hero({ name, roles, tagline, taglines, ctaPrimary, ctaSecondary,
                 </div>
                 <h3 className="font-semibold text-foreground">{featuredProject.title}</h3>
                 <p className="text-sm text-muted-foreground mt-1">{featuredProject.description}</p>
-                <Link 
-                  href={featuredProject.link}
-                  className="inline-flex items-center text-sm text-primary hover:underline mt-2"
-                >
-                  View Project <ArrowRight className="ml-1 h-3 w-3" />
-                </Link>
+                {/^https?:\/\//.test(featuredProject.link) ? (
+                  <a
+                    href={featuredProject.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-sm text-primary hover:underline mt-2"
+                  >
+                    {featuredProject.link.includes('github.com') ? 'View on GitHub' : 'View Project'}
+                    <ArrowRight className="ml-1 h-3 w-3" />
+                  </a>
+                ) : (
+                  <Link 
+                    href={featuredProject.link}
+                    className="inline-flex items-center text-sm text-primary hover:underline mt-2"
+                  >
+                    View Project <ArrowRight className="ml-1 h-3 w-3" />
+                  </Link>
+                )}
               </motion.div>
             )}
           </div>

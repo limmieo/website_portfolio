@@ -37,37 +37,87 @@ export function ProjectCard({
       transition={{ duration: 0.5 }}
       className={className}
     >
-      <Link href={href} className="group block h-full">
-        <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-lg">
-          <div className="relative aspect-video w-full overflow-hidden">
-            <Image
-              src={cover.src}
-              alt={cover.alt}
-              fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
-          </div>
-          <CardHeader>
-            <div className="flex items-center justify-between">
-              <CardTitle className="text-xl">{title}</CardTitle>
-              {year && <span className="text-sm text-muted-foreground">{year}</span>}
+      {/^https?:\/\//.test(href) ? (
+        <a href={href} target="_blank" rel="noopener noreferrer" className="group block h-full">
+          <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-lg">
+            <div className="relative aspect-video w-full overflow-hidden">
+              {(() => {
+                const isLogo = cover.src.includes('/images/company-logos/');
+                const className = isLogo
+                  ? 'object-contain p-4 md:p-6 bg-white dark:bg-white'
+                  : 'object-cover transition-transform duration-500 group-hover:scale-105';
+                return (
+                  <Image
+                    src={encodeURI(cover.src)}
+                    alt={cover.alt}
+                    fill
+                    className={className}
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                );
+              })()}
             </div>
-          </CardHeader>
-          <CardContent>
-            <p className="text-muted-foreground line-clamp-2">{description}</p>
-          </CardContent>
-          {tags.length > 0 && (
-            <CardFooter className="flex flex-wrap gap-2">
-              {tags.map((tag) => (
-                <Badge key={tag} variant="secondary">
-                  {tag}
-                </Badge>
-              ))}
-            </CardFooter>
-          )}
-        </Card>
-      </Link>
+            <CardHeader>
+              <div className="flex items-center justify-between">
+                <CardTitle className="text-xl">{title}</CardTitle>
+                {year && <span className="text-sm text-muted-foreground">{year}</span>}
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-muted-foreground line-clamp-2">{description}</p>
+            </CardContent>
+            {tags.length > 0 && (
+              <CardFooter className="flex flex-wrap gap-2">
+                {tags.map((tag) => (
+                  <Badge key={tag} variant="secondary">
+                    {tag}
+                  </Badge>
+                ))}
+              </CardFooter>
+            )}
+          </Card>
+        </a>
+      ) : (
+        <Link href={href} className="group block h-full">
+          <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-lg">
+            <div className="relative aspect-video w-full overflow-hidden">
+              {(() => {
+                const isLogo = cover.src.includes('/images/company-logos/');
+                const className = isLogo
+                  ? 'object-contain p-4 md:p-6 bg-white dark:bg-white'
+                  : 'object-cover transition-transform duration-500 group-hover:scale-105';
+                return (
+                  <Image
+                    src={encodeURI(cover.src)}
+                    alt={cover.alt}
+                    fill
+                    className={className}
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                );
+              })()}
+            </div>
+            <CardHeader>
+              <div className="flex items-center justify-between">
+                <CardTitle className="text-xl">{title}</CardTitle>
+                {year && <span className="text-sm text-muted-foreground">{year}</span>}
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-muted-foreground line-clamp-2">{description}</p>
+            </CardContent>
+            {tags.length > 0 && (
+              <CardFooter className="flex flex-wrap gap-2">
+                {tags.map((tag) => (
+                  <Badge key={tag} variant="secondary">
+                    {tag}
+                  </Badge>
+                ))}
+              </CardFooter>
+            )}
+          </Card>
+        </Link>
+      )}
     </motion.div>
   )
 }

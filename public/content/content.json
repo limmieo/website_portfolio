@@ -9,7 +9,8 @@
       "youtube": "https://www.youtube.com/@TonyDeclassified",
       "instagram": "https://www.instagram.com/tony.declassified"
     },
-    "resume": "/Tony_Destin_Resume.pdf"
+    "resume": "/Tony_Destin_Resume.pdf",
+    "phone": "267-938-9471"
   },
   "hero": {
     "name": "Tony Destin",
@@ -20,11 +21,11 @@
       "AI Engineer"
     ],
     "ctaPrimary": {
-      "text": "View My Work",
-      "href": "/work"
+      "text": "View Resume",
+      "href": "/Tony_Destin_Resume.pdf"
     },
     "ctaSecondary": {
-      "text": "Get in Touch",
+      "text": "Contact",
       "href": "/contact"
     },
     "tagline": "I plan, produce, and ship AI content systems that get results.",
@@ -35,25 +36,17 @@
       "Creating viral content that drives real business impact."
     ],
     "photo": {
-      "src": "/images/hero/tony.jpg",
+      "src": "/images/Headshot.jpeg",
       "alt": "Portrait of Tony Destin"
     },
-    "ctaPrimary": {
-      "text": "View Resume",
-      "href": "/Tony_Destin_Resume.pdf"
-    },
-    "ctaSecondary": {
-      "text": "Contact",
-      "href": "/contact"
-    },
     "featuredProject": {
-      "title": "TikTok Growth Campaign",
-      "description": "Scaled engagement by 7M views on a single campaign, leading to 3,000-follower increase",
-      "link": "/work/tiktok-growth"
+      "title": "Media Downloader (Web App)",
+      "description": "Paste a link, get the file. This web app safely downloads and converts video or audio in the background—fast, clean, and reliable. I built it because most tools charge for this; I wanted a simple, free solution I control.",
+      "link": "https://github.com/limmieo/media-downloader"
     }
   },
   "about": {
-    "summary": "<p>Creator-first marketer and builder. I turn ideas into working tools and content that converts.</p>",
+    "summary": "<p>Marketing consultant and automation strategist with a track record of scaling brands from 300K to over 3.1M followers, generating millions of views across TikTok, Instagram, and YouTube.</p><p>Combines SEO expertise, AI-driven content pipelines, and performance-focused strategy to boost conversions, grow audiences, and streamline publishing at scale.</p>",
     "bullets": [
       "UGC ads and short-form scripting",
       "Influencer partnerships and performance loops",
@@ -62,91 +55,129 @@
     ],
     "skills": [
       {
-        "category": "Strategy",
+        "category": "Content",
         "items": [
-          "Content strategy",
-          "Social growth",
-          "Influencer marketing",
-          "UGC ads"
+          "JavaScript"
         ]
       },
       {
-        "category": "Production",
+        "category": "Engineering",
         "items": [
-          "Scripting",
-          "On-camera",
-          "Editing",
-          "Thumbnails",
-          "Hooks and CTAs"
+          "Python"
         ]
       },
       {
-        "category": "AI & Code",
+        "category": "Tools",
         "items": [
-          "Python",
-          "FastAPI",
-          "FFmpeg",
-          "WhisperX",
-          "Next.js",
-          "Workers"
+          "Adobe Premiere Pro",
+          "Canva"
         ]
       },
       {
-        "category": "Ops",
+        "category": "Other",
         "items": [
-          "A/B testing",
-          "Analytics",
-          "Prompt design",
-          "Workflow design"
+          "CapCut",
+          "Logic Pro",
+          "Obs Studio",
+          "Hootsuite",
+          "Google AdWords",
+          "Gleam.io",
+          "Google Ad strength Scoring",
+          "Aspire IQ",
+          "Rakuten advertising",
+          "Later",
+          "Microsoft Word",
+          "Microsoft Excel",
+          "Google Gemeni",
+          "Jasper Ai",
+          "Writesonic",
+          "Google Smart Bidding",
+          "Eleven labs",
+          "Render",
+          "Git",
+          "Make.com"
         ]
       }
     ],
     "skillsProgress": [
-      { "name": "Content Strategy", "level": 95, "category": "Strategy" },
-      { "name": "Social Media Growth", "level": 90, "category": "Strategy" },
-      { "name": "Influencer Marketing", "level": 88, "category": "Strategy" },
-      { "name": "Video Production", "level": 85, "category": "Production" },
-      { "name": "Python Development", "level": 80, "category": "Technical" },
-      { "name": "AI Integration", "level": 75, "category": "Technical" },
-      { "name": "Analytics & Data", "level": 82, "category": "Operations" }
+      {
+        "name": "Content Strategy",
+        "level": 95,
+        "category": "Strategy"
+      },
+      {
+        "name": "Social Media Growth",
+        "level": 90,
+        "category": "Strategy"
+      },
+      {
+        "name": "Influencer Marketing",
+        "level": 88,
+        "category": "Strategy"
+      },
+      {
+        "name": "Video Production",
+        "level": 85,
+        "category": "Production"
+      },
+      {
+        "name": "Python Development",
+        "level": 80,
+        "category": "Technical"
+      },
+      {
+        "name": "AI Integration",
+        "level": 75,
+        "category": "Technical"
+      },
+      {
+        "name": "Analytics & Data",
+        "level": 82,
+        "category": "Operations"
+      }
     ],
     "timeline": [
       {
-        "title": "Director/Owner",
+        "title": "Director / Owner",
         "company": "Tony Destin LLC",
         "location": "Philadelphia, PA",
         "startDate": "October 2020",
         "endDate": null,
         "current": true,
         "description": [
-          "Consulted and managed 7+ personal brand accounts while growing a group brand from 300K to 3.1M followers",
-          "Generated over 7M impressions and 2K in TikTok, scaled engagement, achieving 7M views on a single TikTok campaign",
-          "Published 1,700+ video campaigns across YouTube, TikTok, Instagram, and Facebook, averaging 250K views per video",
-          "Produced, directed, and executed 500+ paid social campaigns for brands such as Visa, TurboTax, and Honkai Star Rail"
+          "Lead digital marketing strategy, social media growth, and content production for multiple brands, driving measurable audience growth and revenue.",
+          "Strategic Growth: Consulted and managed 7+ personal brand accounts, scaling one group brand from 300K to 3.1M followers through a mix of paid media, organic growth tactics, and influencer partnerships.",
+          "High-Impact Campaigns: Produced viral TikTok campaigns, including one that generated 7M+ views and 7M+ impressions, increasing brand visibility and follower engagement.",
+          "Content Production: Published 1,700+ multi-platform video campaigns across YouTube, TikTok, Instagram, and Facebook, averaging 250K views per video and boosting audience retention rates.",
+          "Paid Media Management: Produced, directed, and executed 500+ paid social campaigns for major brands such as Visa, TurboTax, and Honkai Star Rail, optimizing for click-through rate (CTR), conversion rate (CVR), and return on ad spend (ROAS).",
+          "Data-Driven Optimization: Used analytics tools (Google Analytics, Looker Studio, Meta Business Suite) to track KPIs, identify trends, and refine campaign strategies for continuous performance improvement."
         ]
       },
       {
-        "title": "Content and Community Manager Consultant",
+        "title": "Content & Community Manager Consultant",
         "company": "Phigital",
         "location": "Remote",
-        "startDate": "Jan 2024",
+        "startDate": "January 2024",
         "endDate": "May 2024",
         "description": [
-          "Moderated and engaged a 30K+ member Telegram community, implementing retention strategies",
-          "Developed a 3-step YouTube content strategy, optimizing video planning and audience growth",
-          "Designed promotional graphics for Instagram and LinkedIn, driving an engagement boost of 100K+ impressions"
+          "Managed community engagement, digital content creation, and platform growth for a large-scale online audience.",
+          "Community Engagement: Moderated and engaged a 30K+ member Telegram community, implementing retention and onboarding strategies that boosted active user participation by 30–35%.",
+          "Content Strategy: Developed a 3-step YouTube growth strategy to improve video planning, enhance content quality, and accelerate audience acquisition.",
+          "Visual Branding: Designed Instagram and LinkedIn promotional graphics that achieved 100K+ impressions, driving brand awareness and follower growth.",
+          "Cross-Functional Collaboration: Partnered with marketing, design, and product teams to ensure content was brand-aligned, optimized for search, and tailored for maximum engagement across channels."
         ]
       },
       {
         "title": "Project Assistant",
         "company": "Flouers",
         "location": "Remote",
-        "startDate": "Jul 2020",
-        "endDate": "Sep 2020",
+        "startDate": "July 2020",
+        "endDate": "September 2020",
         "description": [
-          "Led high-impact outreach efforts, resulting in 2000+ outreach messages in 10 weeks",
-          "Analyzed market trends and audience demographics in the battle rap industry to identify lucrative sponsorship opportunities",
-          "Produced reports on battle rap culture, identifying key sponsors and event opportunities"
+          "Executed outreach, research, and partnership development in the entertainment and sponsorship space.",
+          "Outreach Campaigns: Managed and sent 2,000+ targeted outreach messages to potential brand partners and influencers in just 10 weeks, building a strong prospect pipeline.",
+          "Market Research: Analyzed industry trends and audience demographics in the battle rap space to identify profitable sponsorship and partnership opportunities.",
+          "Reporting & Strategy: Produced detailed sponsorship and cultural reports used to guide event planning, brand collaborations, and community engagement efforts."
         ]
       }
     ],
@@ -159,7 +190,7 @@
       "🎓 Self-taught Python developer with production-ready applications"
     ],
     "headshot": {
-      "src": "/images/about/headshot.jpg",
+      "src": "/images/Headshot.jpeg",
       "alt": "Tony headshot"
     },
     "faqs": [
@@ -175,94 +206,156 @@
     "title": "About Tony Destin",
     "experience": [
       {
-        "role": "Social Media Strategist and Influencer",
-        "company": "Independent",
-        "duration": "Jan 2023 – Present",
-        "location": "Philadelphia, PA",
+        "role": "Tony Destin LLC",
+        "company": "Tony Destin LLC",
+        "duration": "October 2020 - Present",
+        "location": "Tony Destin LLC",
         "responsibilities": [
-          "Led UGC campaigns with multi-million view outcomes",
-          "Scaled accounts with data-backed iterations",
-          "Delivered scripts, edits, and performance reviews for brands and apps"
-        ]
-      },
-      {
-        "role": "AI Engineer and Tooling",
-        "company": "Independent",
-        "duration": "Jan 2024 – Present",
-        "location": "Philadelphia, PA",
-        "responsibilities": [
-          "Built Media Downloader MVP in 6 hours",
-          "Shipped Flask and FastAPI services that process and brand videos",
-          "Automated cross-post flows and content prep"
+          "Consulted and managed 7+ personal brands; scaled a group brand from 300K to 3.1M followers",
+          "Drove 1M+ impressions and 2K+ TikTok conversions; delivered a single-campaign result of 7M+ views and +3K followers",
+          "Published 1,700+ video campaigns across YouTube, TikTok, Instagram, and Facebook; averaged 250K views/video and increased client site traffic by 30% in six months via SEO and content strategy",
+          "Produced and directed 500+ paid social campaigns for brands including Visa, TurboTax, and Honkai Star Rail; averaged 320K impressions, 7K clicks, and 2K conversions per campaign",
+          "Built an AI video automation system (Jan 2025–Present) using Flask, FFmpeg, and ChatGPT to streamline short‑form content workflows across TikTok, Instagram, and Facebook"
         ]
       }
     ],
     "education": [
       {
-        "degree": "AI, Python, and Growth Marketing",
-        "institution": "Self-directed",
+        "degree": "● Kutztown University of Pennsylvania, Bachelor of Science in Social Media Theories and Strategies",
+        "institution": "",
         "duration": "",
-        "description": "Projects in FastAPI, FFmpeg, and Next.js; Prompt libraries for UGC and ad scripts; Deployment on Cloudflare and Vercel"
+        "description": ""
       }
+    ],
+    "certifications": [
+      { "name": "Meta Ads Certification", "date": "May 2020" },
+      { "name": "Google Analytics Certification", "date": "Nov 2020" },
+      { "name": "Hootsuite Certification", "date": "Nov 2019" },
+      { "name": "Python 3", "date": "April 2023" }
     ]
   },
   "highlights": [
     {
-      "label": "MVP speed",
-      "value": "Built a working app in 6 hours",
-      "desc": "From blank repo to live demo"
+      "label": "Audience growth",
+      "value": "300K → 3.1M followers",
+      "desc": "Scaled multi‑platform brand growth"
     },
     {
-      "label": "Audience work",
-      "value": "Creator focused",
-      "desc": "Scripting, UGC, and ad loops"
+      "label": "Viral campaign",
+      "value": "7M+ views",
+      "desc": "Single TikTok campaign impact"
+    },
+    {
+      "label": "Production",
+      "value": "1,700+ video campaigns",
+      "desc": "Published across TikTok and IG"
     }
   ],
   "testimonials": [
     {
-      "name": "Sarah Chen",
-      "role": "Marketing Director",
-      "company": "TechFlow",
-      "content": "Tony's strategic approach to content creation helped us achieve a 300% increase in engagement. His understanding of both the creative and technical sides is unmatched.",
-      "rating": 5,
-      "avatar": "/images/testimonials/sarah.jpg"
-    },
-    {
-      "name": "Marcus Johnson",
-      "role": "Brand Manager",
-      "company": "GameStudio",
-      "content": "Working with Tony was a game-changer. His UGC campaigns generated over 2M views and significantly boosted our user acquisition.",
-      "rating": 5,
-      "avatar": "/images/testimonials/marcus.jpg"
-    },
-    {
-      "name": "Emily Rodriguez",
-      "role": "CEO",
-      "company": "CreativeAgency",
-      "content": "Tony's ability to scale content production while maintaining quality is incredible. He delivered 500+ campaigns on time and on budget.",
-      "rating": 5,
-      "avatar": "/images/testimonials/emily.jpg"
+      "name": "Add name",
+      "role": "Title, Company",
+      "photo": {
+        "src": "/images/testimonials/name.jpg",
+        "alt": "Photo of reviewer"
+      },
+      "quote": "Short quote about working with Tony."
     }
   ],
-  "projectCategories": ["UGC Campaigns", "Social Media", "AI Tools", "Brand Strategy", "Video Production"],
+  "projectCategories": [
+    "UGC Campaigns",
+    "Social Media",
+    "AI Tools",
+    "Brand Strategy",
+    "Video Production"
+  ],
   "workedWith": [
-    { "name": "Cookie Run: Kingdom", "logo": { "src": "/images/logos/cookierun.png", "alt": "Cookie Run logo" }, "url": "https://www.cookierun.com" },
-    { "name": "Chumba Casino", "logo": { "src": "/images/logos/chumba.png", "alt": "Chumba Casino logo" }, "url": "https://www.chumbacasino.com" },
-    { "name": "Zombie.io", "logo": { "src": "/images/logos/zombieio.png", "alt": "Zombie.io logo" }, "url": "https://zombie.io" },
-    { "name": "Grammarly", "logo": { "src": "/images/logos/grammarly.png", "alt": "Grammarly logo" }, "url": "https://www.grammarly.com" },
-    { "name": "Candy Crush", "logo": { "src": "/images/logos/candycrush.png", "alt": "Candy Crush logo" }, "url": "https://www.candycrushsaga.com" }
+    {
+      "name": "Cookie Run: Kingdom",
+      "logo": {
+        "src": "/images/logos/cookierun.png",
+        "alt": "Cookie Run logo"
+      },
+      "url": "https://www.cookierun.com"
+    },
+    {
+      "name": "Chumba Casino",
+      "logo": {
+        "src": "/images/logos/chumba.png",
+        "alt": "Chumba Casino logo"
+      },
+      "url": "https://www.chumbacasino.com"
+    },
+    {
+      "name": "Zombie.io",
+      "logo": {
+        "src": "/images/logos/zombieio.png",
+        "alt": "Zombie.io logo"
+      },
+      "url": "https://zombie.io"
+    },
+    {
+      "name": "Grammarly",
+      "logo": {
+        "src": "/images/logos/grammarly.png",
+        "alt": "Grammarly logo"
+      },
+      "url": "https://www.grammarly.com"
+    },
+    {
+      "name": "Candy Crush",
+      "logo": {
+        "src": "/images/logos/candycrush.png",
+        "alt": "Candy Crush logo"
+      },
+      "url": "https://www.candycrushsaga.com"
+    }
   ],
   "caseStudies": [
+    {
+      "slug": "media-downloader",
+      "title": "Media Downloader",
+      "year": "2025",
+      "cover": {
+        "src": "/images/social/github-card.svg",
+        "alt": "Media Downloader GitHub preview"
+      },
+      "summary": "Paste a link, get the file — safely and fast. Converts to video or audio with background processing and organized downloads.",
+      "stack": ["Python", "FastAPI", "JavaScript"],
+      "link": "https://github.com/limmieo/media-downloader",
+      "whyItWorks": [
+        "Dead-simple: paste link and go",
+        "Background jobs so the UI stays responsive",
+        "Clean, predictable output formats",
+        "Safer handling to avoid common download issues"
+      ],
+      "media": [],
+      "links": {
+        "github": "https://github.com/limmieo/media-downloader"
+      }
+    },
     {
       "slug": "cookie-run-kingdom",
       "title": "Cookie Run: Kingdom",
       "year": "2024",
-      "cover": { "src": "/images/work/cookierun/cover.png", "alt": "Cookie Run UGC ad cover" },
+      "cover": {
+        "src": "/images/work/cookierun/cover.png",
+        "alt": "Cookie Run UGC ad cover"
+      },
       "summary": "UGC creative that drove outsized views and clicks with simple hooks and fast cuts.",
       "metrics": [
-        { "label": "Views", "value": "16.1M+" },
-        { "label": "Clicks", "value": "53.8K+" },
-        { "label": "Conversions", "value": "1.24K+" }
+        {
+          "label": "Views",
+          "value": "16.1M+"
+        },
+        {
+          "label": "Clicks",
+          "value": "53.8K+"
+        },
+        {
+          "label": "Conversions",
+          "value": "1.24K+"
+        }
       ],
       "whyItWorks": [
         "Strong hook",
@@ -277,12 +370,24 @@
       "slug": "chumba-casino",
       "title": "Chumba Casino",
       "year": "2024",
-      "cover": { "src": "/images/work/chumba/cover.png", "alt": "Chumba UGC ad cover" },
+      "cover": {
+        "src": "/images/company-logos/chumba casino.png",
+        "alt": "Chumba Casino logo"
+      },
       "summary": "High-CTR creative with repetition and clear incentive.",
       "metrics": [
-        { "label": "Impressions", "value": "1M+" },
-        { "label": "Clicks", "value": "18K+" },
-        { "label": "Conversions", "value": "10K+" }
+        {
+          "label": "Impressions",
+          "value": "1M+"
+        },
+        {
+          "label": "Clicks",
+          "value": "18K+"
+        },
+        {
+          "label": "Conversions",
+          "value": "10K+"
+        }
       ],
       "whyItWorks": [
         "Hook and repetition",
@@ -297,12 +402,24 @@
       "slug": "zombie-io",
       "title": "Zombie.io",
       "year": "2024",
-      "cover": { "src": "/images/work/zombieio/cover.png", "alt": "Zombie.io UGC ad cover" },
+      "cover": {
+        "src": "/images/work/zombieio/cover.png",
+        "alt": "Zombie.io UGC ad cover"
+      },
       "summary": "Entertaining and useful creative that turned tips into clicks.",
       "metrics": [
-        { "label": "Impressions", "value": "1M+" },
-        { "label": "Clicks", "value": "30K+" },
-        { "label": "Conversions", "value": "2.3K+" }
+        {
+          "label": "Impressions",
+          "value": "1M+"
+        },
+        {
+          "label": "Clicks",
+          "value": "30K+"
+        },
+        {
+          "label": "Conversions",
+          "value": "2.3K+"
+        }
       ],
       "whyItWorks": [
         "Relatable opener",
@@ -317,11 +434,20 @@
       "slug": "grammarly",
       "title": "Grammarly",
       "year": "2024",
-      "cover": { "src": "/images/work/grammarly/cover.png", "alt": "Grammarly ad cover" },
+      "cover": {
+        "src": "/images/work/grammarly/cover.png",
+        "alt": "Grammarly ad cover"
+      },
       "summary": "Problem-solution framing with a clean CTA.",
       "metrics": [
-        { "label": "Impressions", "value": "1M+" },
-        { "label": "Clicks", "value": "21K+" }
+        {
+          "label": "Impressions",
+          "value": "1M+"
+        },
+        {
+          "label": "Clicks",
+          "value": "21K+"
+        }
       ],
       "whyItWorks": [
         "Relatable hook",
@@ -336,12 +462,24 @@
       "slug": "candy-crush",
       "title": "Candy Crush",
       "year": "2024",
-      "cover": { "src": "/images/work/candycrush/cover.png", "alt": "Candy Crush All-Stars ad cover" },
+      "cover": {
+        "src": "/images/work/candycrush/cover.png",
+        "alt": "Candy Crush All-Stars ad cover"
+      },
       "summary": "Timely challenge framing with humor and strong cues.",
       "metrics": [
-        { "label": "Views", "value": "4.9M+" },
-        { "label": "Likes", "value": "355K+" },
-        { "label": "Shares", "value": "10K+" }
+        {
+          "label": "Views",
+          "value": "4.9M+"
+        },
+        {
+          "label": "Likes",
+          "value": "355K+"
+        },
+        {
+          "label": "Shares",
+          "value": "10K+"
+        }
       ],
       "whyItWorks": [
         "Timely and event-driven",
@@ -350,9 +488,221 @@
         "Community engagement"
       ],
       "media": [
-        { "type": "link", "src": "https://www.tiktok.com/@tony_destin/video/7350852762860539179", "alt": "TikTok video" }
+        {
+          "type": "link",
+          "src": "https://www.tiktok.com/@tony_destin/video/7350852762860539179",
+          "alt": "TikTok video"
+        }
       ],
       "links": {}
+    },
+    {
+      "slug": "hello-i-am",
+      "title": "Hello, I am",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/1.png",
+        "alt": "Hello, I am cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/hello-i-am.mdx"
+    },
+    {
+      "slug": "tony-destin",
+      "title": "Tony Destin",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/2.png",
+        "alt": "Tony Destin cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/tony-destin.mdx"
+    },
+    {
+      "slug": "partnerships",
+      "title": "Partnerships",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/3.png",
+        "alt": "Partnerships cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/partnerships.mdx"
+    },
+    {
+      "slug": "who-i-am-and-what-i-do",
+      "title": "Who I Am and What I Do",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/4.png",
+        "alt": "Who I Am and What I Do cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/who-i-am-and-what-i-do.mdx"
+    },
+    {
+      "slug": "digital-marketing-strategist-content-creator",
+      "title": "Digital marketing strategist & content creator",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/5.png",
+        "alt": "Digital marketing strategist & content creator cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/digital-marketing-strategist-content-creator.mdx"
+    },
+    {
+      "slug": "led-campaigns-for-major-brands-like-turbotax",
+      "title": "Led campaigns for major brands like TurboTax,",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/6.png",
+        "alt": "Led campaigns for major brands like TurboTax, cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/led-campaigns-for-major-brands-like-turbotax-.mdx"
+    },
+    {
+      "slug": "scaled-brands-from-300k-to-3-1m-followers-and",
+      "title": "Scaled brands from 300K to 3.1M followers and",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/7.png",
+        "alt": "Scaled brands from 300K to 3.1M followers and cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/scaled-brands-from-300k-to-3-1m-followers-and.mdx"
+    },
+    {
+      "slug": "influencer-partnerships",
+      "title": "Influencer Partnerships",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/8.png",
+        "alt": "Influencer Partnerships cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/influencer-partnerships.mdx"
     }
   ],
   "systems": [
@@ -376,34 +726,25 @@
       "repo": "https://github.com/limmieo/brandflow-Ai"
     },
     {
-      "slug": "ai-video-repurpose",
-      "title": "AI Video Repurposing System",
-      "subtitle": "Clips, captions, and posting",
+      "slug": "media-downloader",
+      "title": "Media Downloader",
+      "subtitle": "Download and convert media (YouTube, TikTok)",
       "cover": {
         "src": "/images/systems/repurpose/cover.png",
-        "alt": "Repurpose system diagram"
+        "alt": "Media Downloader diagram"
       },
       "stack": [
         "Python",
+        "FastAPI",
         "FFmpeg",
-        "ChatGPT API"
+        "JavaScript"
       ],
       "outcomes": [
-        "Less manual editing",
-        "Faster turnarounds"
+        "Background processing",
+        "Clean filenames",
+        "Robust error handling"
       ],
-      "repo": "TODO"
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "Add name",
-      "role": "Title, Company",
-      "photo": {
-        "src": "/images/testimonials/name.jpg",
-        "alt": "Photo of reviewer"
-      },
-      "quote": "Short quote about working with Tony."
+      "repo": "https://github.com/limmieo/media-downloader"
     }
   ],
   "contact": {

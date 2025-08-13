@@ -9,7 +9,6 @@ import { Section } from '@/components/section'
 import { Button } from '@/components/ui/button'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { Badge } from '@/components/ui/badge'
-import { SkillsProgress } from '@/components/skills-progress'
 import { Timeline } from '@/components/timeline'
 import { Testimonials } from '@/components/testimonials'
 import { useContent } from '@/lib/content'
@@ -84,69 +83,32 @@ export default function AboutPage() {
         </div>
       </Section>
       
-      {/* Skills Section */}
+      {/* Skills Section — removed progress bars to reduce redundancy with Home */}
       <Section className="bg-muted/30">
         <div className="mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Skills & Expertise
+              Technologies & Tools
             </h2>
-            <p className="mt-4 text-lg text-muted-foreground">
-              A collection of technologies and methodologies I work with
-            </p>
           </div>
-          
-          <div className="grid gap-12 lg:grid-cols-2">
-            {/* Skills Progress */}
-            <div>
-              <h3 className="text-xl font-semibold mb-6">Skill Proficiency</h3>
-              {/* Optional skill progress component - only render if data exists */}
-              {about.skills && about.skills.length > 0 && (
-                <SkillsProgress skills={about.skills.flatMap(group => 
-                  group.items.map(item => ({ name: item, level: 85 }))
-                )} />
-              )}
-            </div>
-            
-            {/* Skills Categories */}
-            <div>
-              <h3 className="text-xl font-semibold mb-6">Technologies & Tools</h3>
-              <div className="space-y-6">
-                {about.skills.map((skillGroup) => (
-                  <div key={skillGroup.category} className="space-y-3">
-                    <h4 className="text-lg font-medium text-primary">{skillGroup.category}</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {skillGroup.items.map((skill) => (
-                        <Badge key={skill} variant="secondary" className="px-3 py-1 text-sm">
-                          {skill}
-                        </Badge>
-                      ))}
-                    </div>
-                  </div>
-                ))}
+          <div className="space-y-6">
+            {about.skills.map((skillGroup) => (
+              <div key={skillGroup.category} className="space-y-3">
+                <h4 className="text-lg font-medium text-primary">{skillGroup.category}</h4>
+                <div className="flex flex-wrap gap-2">
+                  {skillGroup.items.map((skill) => (
+                    <Badge key={skill} variant="secondary" className="px-3 py-1 text-sm">
+                      {skill}
+                    </Badge>
+                  ))}
+                </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </Section>
 
-      {/* Fun Facts Section - Only shown if bullets exist */}
-      {about.bullets && about.bullets.length > 0 && (
-        <Section>
-          <div className="mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-8">
-              Fun Facts
-            </h2>
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-              {about.bullets.map((fact: string, index: number) => (
-                <div key={index} className="p-4 rounded-lg bg-card border">
-                  <p className="text-lg">{fact}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </Section>
-      )}
+      {/* Fun Facts removed per simplification */}
       
       {/* Experience Section */}
       <Section className="bg-muted/30">

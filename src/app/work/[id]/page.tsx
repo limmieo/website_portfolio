@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
-import { notFound, useRouter } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowLeft, ExternalLink, Github } from 'lucide-react'
@@ -32,7 +32,8 @@ export default function WorkPage({ params }: PageProps) {
       if (foundProject) {
         setProject(foundProject)
       } else if (!isLoading) {
-        notFound()
+        // If no project matches the slug, redirect to the Work listing
+        router.replace('/work')
       }
     }
   }, [content, params.id, isLoading])
@@ -60,7 +61,7 @@ export default function WorkPage({ params }: PageProps) {
   }
   
   if (!project) {
-    return null // This will be handled by the notFound() call in the useEffect
+    return null // Redirecting to /work when project not found
   }
   
   // Find the index of the current project for navigation

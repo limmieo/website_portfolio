@@ -56,7 +56,26 @@
         "q": "How do you work",
         "a": "Small scopes, tight loops, visible results. I document as I build."
       }
-    ]
+    ],
+    "experience": [
+      {
+        "role": "Collaboration",
+        "company": "Phigitaland",
+        "duration": "",
+        "location": "",
+        "responsibilities": ["Details forthcoming."],
+        "technologies": []
+      },
+      {
+        "role": "Collaboration",
+        "company": "Floures",
+        "duration": "",
+        "location": "",
+        "responsibilities": ["Details forthcoming."],
+        "technologies": []
+      }
+    ],
+    "education": []
   },
   
   "highlights": [
@@ -76,6 +95,16 @@
     {
       "name": "Add brand when approved",
       "logo": { "src": "/images/logos/placeholder.png", "alt": "Brand logo" },
+      "url": "https://example.com"
+    },
+    {
+      "name": "Phigitaland",
+      "logo": { "src": "/images/logos/placeholder.png", "alt": "Phigitaland logo" },
+      "url": "https://example.com"
+    },
+    {
+      "name": "Floures",
+      "logo": { "src": "/images/logos/placeholder.png", "alt": "Floures logo" },
       "url": "https://example.com"
     }
   ],
