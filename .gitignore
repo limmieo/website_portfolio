@@ -1,0 +1,66 @@
+node_modules/
+.next/
+.vercel/
+out/
+dist/
+build/
+.turbo/
+.cache/
+coverage/
+
+# Env files
+.env
+.env.*
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+*.log
+yarn-error.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Package manager stores
+.pnpm-store/
+**/.yarn/*
+!.yarn/releases/
+!.yarn/plugins/
+!.yarn/sdks/
+!.yarn/versions/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local config
+.npmrc
+.yarnrc*
+.env.local
+.env.production.local
+.env.development.local
+.env.test.local
+.envrc
+.direnv
+
+# Logs and caches
+.eslintcache
+.stylelintcache
+.parcel-cache/
+
+# Certificates/keys
+*.pem
+*.key
+*.crt
+*.p12
+*.keystore
+*.jks
+
+# Databases
+*.sqlite*
+*.db
+
+# Misc
+*.local
+*.secret.*

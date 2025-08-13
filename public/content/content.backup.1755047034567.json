@@ -1,0 +1,215 @@
+{
+  "site": {
+    "owner": "Tony Destin",
+    "location": "Philadelphia, PA",
+    "email": "tonydestinpromo@gmail.com",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/tonydestin/",
+      "x": "https://twitter.com/limmieo",
+      "youtube": "https://www.youtube.com/@TonyDeclassified",
+      "instagram": "https://www.instagram.com/tony.declassified"
+    },
+    "resume": "/Tony_Destin_Resume.pdf"
+  },
+  "hero": {
+    "name": "Tony Destin",
+    "roles": [
+      "Influencer",
+      "Social Media Manager",
+      "Social Media Strategist",
+      "AI Engineer"
+    ],
+    "tagline": "I design and ship AI content systems, agents, and custom apps.",
+    "photo": {
+      "src": "/images/hero/tony.jpg",
+      "alt": "Portrait of Tony Destin"
+    },
+    "ctas": [
+      {
+        "label": "View Resume",
+        "href": "/Tony_Destin_Resume.pdf"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "about": {
+    "summary": "I plan, produce, and automate content. I build AI tools that creators use every day.",
+    "bullets": [
+      "AI content generation and posting workflows",
+      "Custom apps in Python and FastAPI",
+      "Video pipelines with FFmpeg",
+      "Agent tasks and data pipelines"
+    ],
+    "skills": [
+      "Content strategy",
+      "Short form scripting",
+      "Influencer partnerships",
+      "Python",
+      "FastAPI",
+      "FFmpeg",
+      "Next.js",
+      "Automation"
+    ],
+    "headshot": {
+      "src": "/images/about/headshot.jpg",
+      "alt": "Tony headshot"
+    },
+    "faqs": [
+      {
+        "q": "What do you focus on",
+        "a": "I ship MVPs fast, then iterate. I pick the simplest path that scales."
+      },
+      {
+        "q": "How do you work",
+        "a": "Small scopes, tight loops, visible results. I document as I build."
+      }
+    ]
+  },
+  "highlights": [
+    {
+      "label": "MVP speed",
+      "value": "Built a working app in 6 hours",
+      "desc": "From blank repo to live demo"
+    },
+    {
+      "label": "Audience work",
+      "value": "Creator focused",
+      "desc": "Scripting, UGC, and ad loops"
+    }
+  ],
+  "workedWith": [
+    {
+      "name": "Add brand when approved",
+      "logo": {
+        "src": "/images/logos/placeholder.png",
+        "alt": "Brand logo"
+      },
+      "url": "https://example.com"
+    }
+  ],
+  "caseStudies": [
+    {
+      "slug": "media-downloader",
+      "title": "Media Downloader",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/media-downloader/cover.png",
+        "alt": "Media Downloader UI"
+      },
+      "summary": "Full stack tool that grabs video or clean audio fast. Built for creator workflows.",
+      "role": [
+        "Product",
+        "Backend",
+        "Frontend"
+      ],
+      "stack": [
+        "FastAPI",
+        "yt-dlp",
+        "FFmpeg",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "metrics": [
+        {
+          "label": "Build time",
+          "value": "6 hours"
+        }
+      ],
+      "whyItWorks": [
+        "One tool instead of five",
+        "Typed APIs, safe filenames, cleanup",
+        "TikTok downloads without watermark"
+      ],
+      "responsibilities": [
+        "API design with FastAPI and Pydantic",
+        "URL allowlist, size limits, timeouts",
+        "StreamingResponse for large files",
+        "Simple, responsive UI"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/work/media-downloader/screen-1.png",
+          "alt": "Paste URL form",
+          "caption": "Paste link, pick MP3 or MP4"
+        },
+        {
+          "type": "image",
+          "src": "/images/work/media-downloader/screen-2.png",
+          "alt": "Progress UI",
+          "caption": "Progress and safe filenames"
+        },
+        {
+          "type": "video",
+          "src": "TODO",
+          "alt": "Short demo clip",
+          "caption": "30s demo of download and convert"
+        }
+      ],
+      "links": {
+        "repo": "https://github.com/yourusername/media-downloader",
+        "demo": "TODO"
+      },
+      "mdx": "/content/case-studies/media-downloader.mdx"
+    }
+  ],
+  "systems": [
+    {
+      "slug": "video-branding-automation",
+      "title": "Video Branding Automation",
+      "subtitle": "Batch watermarks, LUTs, captions, outros",
+      "cover": {
+        "src": "/images/systems/branding/cover.png",
+        "alt": "Automation pipeline diagram"
+      },
+      "stack": [
+        "Flask",
+        "FFmpeg",
+        "Python"
+      ],
+      "outcomes": [
+        "Hands free posting",
+        "Reliable renders"
+      ],
+      "repo": "https://github.com/limmieo/brandflow-Ai"
+    },
+    {
+      "slug": "ai-video-repurpose",
+      "title": "AI Video Repurposing System",
+      "subtitle": "Clips, captions, and posting",
+      "cover": {
+        "src": "/images/systems/repurpose/cover.png",
+        "alt": "Repurpose system diagram"
+      },
+      "stack": [
+        "Python",
+        "FFmpeg",
+        "ChatGPT API"
+      ],
+      "outcomes": [
+        "Less manual editing",
+        "Faster turnarounds"
+      ],
+      "repo": "TODO"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Add name",
+      "role": "Title, Company",
+      "photo": {
+        "src": "/images/testimonials/name.jpg",
+        "alt": "Photo of reviewer"
+      },
+      "quote": "Short quote about working with Tony."
+    }
+  ],
+  "contact": {
+    "email": "tonydestinpromo@gmail.com",
+    "note": "Open to contract and full time work. Remote friendly."
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "site": {
+    "owner": "Tony Destin",
+    "location": "Philadelphia, PA",
+    "email": "tonydestinpromo@gmail.com",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/tonydestin/",
+      "x": "https://twitter.com/limmieo",
+      "youtube": "https://www.youtube.com/@TonyDeclassified",
+      "instagram": "https://www.instagram.com/tony.declassified"
+    },
+    "resume": "/Tony_Destin_Resume.pdf",
+    "phone": "267-938-9471"
+  },
+  "hero": {
+    "name": "Tony Destin",
+    "roles": [
+      "Influencer",
+      "Social Media Manager",
+      "Social Media Strategist",
+      "AI Engineer"
+    ],
+    "tagline": "I design and ship AI content systems, agents, and custom apps.",
+    "photo": {
+      "src": "/images/hero/tony.jpg",
+      "alt": "Portrait of Tony Destin"
+    },
+    "ctas": [
+      {
+        "label": "View Resume",
+        "href": "/Tony_Destin_Resume.pdf"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "about": {
+    "summary": "<p>Marketing consultant and automation strategist with a track record of scaling brands from 300K to over 3.1M followers, generating millions of views across TikTok, Instagram, and YouTube.</p><p>Combines SEO expertise, AI-driven content pipelines, and performance-focused strategy to boost conversions, grow audiences, and streamline publishing at scale.</p>",
+    "bullets": [
+      "AI content generation and posting workflows",
+      "Custom apps in Python and FastAPI",
+      "Video pipelines with FFmpeg",
+      "Agent tasks and data pipelines"
+    ],
+    "skills": [
+      {
+        "category": "Content",
+        "items": [
+          "JavaScript"
+        ]
+      },
+      {
+        "category": "Engineering",
+        "items": [
+          "Python"
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          "Adobe Premiere Pro",
+          "Canva"
+        ]
+      },
+      {
+        "category": "Other",
+        "items": [
+          "CapCut",
+          "Logic Pro",
+          "Obs Studio",
+          "Hootsuite",
+          "Google AdWords",
+          "Gleam.io",
+          "Google Ad strength Scoring",
+          "Aspire IQ",
+          "Rakuten advertising",
+          "Later",
+          "Microsoft Word",
+          "Microsoft Excel",
+          "Google Gemeni",
+          "Jasper Ai",
+          "Writesonic",
+          "Google Smart Bidding",
+          "Eleven labs",
+          "Render",
+          "Git",
+          "Make.com"
+        ]
+      }
+    ],
+    "headshot": {
+      "src": "/images/about/headshot.jpg",
+      "alt": "Tony headshot"
+    },
+    "faqs": [
+      {
+        "question": "What do you focus on?",
+        "answer": "<p>I ship MVPs fast, then iterate. I pick the simplest path that scales.</p>"
+      },
+      {
+        "question": "How do you work?",
+        "answer": "<p>Small scopes, tight loops, visible results. I document as I build.</p>"
+      }
+    ],
+    "title": "About Tony Destin",
+    "experience": [
+      {
+        "role": "Tony Destin LLC",
+        "company": "Tony Destin LLC",
+        "duration": "October 2020 - Present",
+        "location": "Tony Destin LLC",
+        "responsibilities": [
+          "● Consulted and managed 7+ personal brand accounts while growing a group brand from 300K to 3.1M",
+          "followers; generated over 1M impressions and 2K in TikTok, scaled engagement, achieving over 7M views",
+          "on a single TikTok campaign, leading to a 3,000-follower increase",
+          "● Publish 1,700+ video campaigns across YouTube, TikTok, Instagram, and Facebook, averaging 250K",
+          "views per video; I increased client website traffic by 30% in six months through targeted SEO and content",
+          "strategies",
+          "● Produced, directed, and executed 500+ paid social campaigns for brands such as Visa, TurboTax, and",
+          "Honkai Star Rail, generating an average of 320K impressions, 7K clicks, and 2K conversions per campaign",
+          "AI Video Automation",
+          "Self-employed                                                                     Jan 2025 – Present",
+          "Architected a production-grade automation system using Flask, FFmpeg, and ChatGPT to streamline",
+          "short-form content workflows across TikTok, Instagram, and Facebook"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "● Kutztown University of Pennsylvania, Bachelor of Science in Social Media Theories and Strategies",
+        "institution": "",
+        "duration": "",
+        "description": "● Meta Ads Certification         May 2020 ● Google Analytics Certification        Nov 2020 ● Hootsuite Certification         Nov 2019 ● Python 3           April 2023"
+      }
+    ]
+  },
+  "highlights": [
+    {
+      "label": "MVP speed",
+      "value": "Built a working app in 6 hours",
+      "desc": "From blank repo to live demo"
+    },
+    {
+      "label": "Audience work",
+      "value": "Creator focused",
+      "desc": "Scripting, UGC, and ad loops"
+    }
+  ],
+  "workedWith": [
+    {
+      "name": "Add brand when approved",
+      "logo": {
+        "src": "/images/logos/placeholder.png",
+        "alt": "Brand logo"
+      },
+      "url": "https://example.com"
+    }
+  ],
+  "caseStudies": [
+    {
+      "slug": "media-downloader",
+      "title": "Media Downloader",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/media-downloader/cover.png",
+        "alt": "Media Downloader UI"
+      },
+      "summary": "Full stack tool that grabs video or clean audio fast. Built for creator workflows.",
+      "role": [
+        "Product",
+        "Backend",
+        "Frontend"
+      ],
+      "stack": [
+        "FastAPI",
+        "yt-dlp",
+        "FFmpeg",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "metrics": [
+        {
+          "label": "Build time",
+          "value": "6 hours"
+        }
+      ],
+      "whyItWorks": [
+        "One tool instead of five",
+        "Typed APIs, safe filenames, cleanup",
+        "TikTok downloads without watermark"
+      ],
+      "responsibilities": [
+        "API design with FastAPI and Pydantic",
+        "URL allowlist, size limits, timeouts",
+        "StreamingResponse for large files",
+        "Simple, responsive UI"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "src": "/images/work/media-downloader/screen-1.png",
+          "alt": "Paste URL form",
+          "caption": "Paste link, pick MP3 or MP4"
+        },
+        {
+          "type": "image",
+          "src": "/images/work/media-downloader/screen-2.png",
+          "alt": "Progress UI",
+          "caption": "Progress and safe filenames"
+        },
+        {
+          "type": "video",
+          "src": "TODO",
+          "alt": "Short demo clip",
+          "caption": "30s demo of download and convert"
+        }
+      ],
+      "links": {
+        "repo": "https://github.com/yourusername/media-downloader",
+        "demo": "TODO"
+      },
+      "mdx": "/content/case-studies/media-downloader.mdx"
+    },
+    {
+      "slug": "hello-i-am",
+      "title": "Hello, I am",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/1.png",
+        "alt": "Hello, I am cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/hello-i-am.mdx"
+    },
+    {
+      "slug": "tony-destin",
+      "title": "Tony Destin",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/2.png",
+        "alt": "Tony Destin cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/tony-destin.mdx"
+    },
+    {
+      "slug": "partnerships",
+      "title": "Partnerships",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/3.png",
+        "alt": "Partnerships cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/partnerships.mdx"
+    },
+    {
+      "slug": "who-i-am-and-what-i-do",
+      "title": "Who I Am and What I Do",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/4.png",
+        "alt": "Who I Am and What I Do cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/who-i-am-and-what-i-do.mdx"
+    },
+    {
+      "slug": "digital-marketing-strategist-content-creator",
+      "title": "Digital marketing strategist & content creator",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/5.png",
+        "alt": "Digital marketing strategist & content creator cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/digital-marketing-strategist-content-creator.mdx"
+    },
+    {
+      "slug": "led-campaigns-for-major-brands-like-turbotax",
+      "title": "Led campaigns for major brands like TurboTax,",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/6.png",
+        "alt": "Led campaigns for major brands like TurboTax, cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/led-campaigns-for-major-brands-like-turbotax-.mdx"
+    },
+    {
+      "slug": "scaled-brands-from-300k-to-3-1m-followers-and",
+      "title": "Scaled brands from 300K to 3.1M followers and",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/7.png",
+        "alt": "Scaled brands from 300K to 3.1M followers and cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/scaled-brands-from-300k-to-3-1m-followers-and.mdx"
+    },
+    {
+      "slug": "influencer-partnerships",
+      "title": "Influencer Partnerships",
+      "year": "2025",
+      "cover": {
+        "src": "/images/work/8.png",
+        "alt": "Influencer Partnerships cover"
+      },
+      "summary": "Project from portfolio PDF (details TBD).",
+      "role": [
+        "Product",
+        "Engineering",
+        "Design"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "metrics": [],
+      "whyItWorks": [],
+      "responsibilities": [],
+      "media": [],
+      "links": {},
+      "mdx": "/content/case-studies/influencer-partnerships.mdx"
+    }
+  ],
+  "systems": [
+    {
+      "slug": "video-branding-automation",
+      "title": "Video Branding Automation",
+      "subtitle": "Batch watermarks, LUTs, captions, outros",
+      "cover": {
+        "src": "/images/systems/branding/cover.png",
+        "alt": "Automation pipeline diagram"
+      },
+      "stack": [
+        "Flask",
+        "FFmpeg",
+        "Python"
+      ],
+      "outcomes": [
+        "Hands free posting",
+        "Reliable renders"
+      ],
+      "repo": "https://github.com/limmieo/brandflow-Ai"
+    },
+    {
+      "slug": "ai-video-repurpose",
+      "title": "AI Video Repurposing System",
+      "subtitle": "Clips, captions, and posting",
+      "cover": {
+        "src": "/images/systems/repurpose/cover.png",
+        "alt": "Repurpose system diagram"
+      },
+      "stack": [
+        "Python",
+        "FFmpeg",
+        "ChatGPT API"
+      ],
+      "outcomes": [
+        "Less manual editing",
+        "Faster turnarounds"
+      ],
+      "repo": "TODO"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Add name",
+      "role": "Title, Company",
+      "photo": {
+        "src": "/images/testimonials/name.jpg",
+        "alt": "Photo of reviewer"
+      },
+      "quote": "Short quote about working with Tony."
+    }
+  ],
+  "contact": {
+    "email": "tonydestinpromo@gmail.com",
+    "note": "Open to contract and full time work. Remote friendly."
+  }
+}

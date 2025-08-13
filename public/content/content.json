@@ -1,0 +1,413 @@
+{
+  "site": {
+    "owner": "Tony Destin",
+    "location": "Philadelphia, PA",
+    "email": "tonydestinpromo@gmail.com",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/tonydestin/",
+      "x": "https://twitter.com/limmieo",
+      "youtube": "https://www.youtube.com/@TonyDeclassified",
+      "instagram": "https://www.instagram.com/tony.declassified"
+    },
+    "resume": "/Tony_Destin_Resume.pdf"
+  },
+  "hero": {
+    "name": "Tony Destin",
+    "roles": [
+      "Influencer",
+      "Social Media Manager",
+      "Social Media Strategist",
+      "AI Engineer"
+    ],
+    "ctaPrimary": {
+      "text": "View My Work",
+      "href": "/work"
+    },
+    "ctaSecondary": {
+      "text": "Get in Touch",
+      "href": "/contact"
+    },
+    "tagline": "I plan, produce, and ship AI content systems that get results.",
+    "taglines": [
+      "I plan, produce, and ship AI content systems that get results.",
+      "Scaling brands from 300K to 3.1M followers with data-driven strategies.",
+      "Building AI tools that convert audiences into engaged communities.",
+      "Creating viral content that drives real business impact."
+    ],
+    "photo": {
+      "src": "/images/hero/tony.jpg",
+      "alt": "Portrait of Tony Destin"
+    },
+    "ctaPrimary": {
+      "text": "View Resume",
+      "href": "/Tony_Destin_Resume.pdf"
+    },
+    "ctaSecondary": {
+      "text": "Contact",
+      "href": "/contact"
+    },
+    "featuredProject": {
+      "title": "TikTok Growth Campaign",
+      "description": "Scaled engagement by 7M views on a single campaign, leading to 3,000-follower increase",
+      "link": "/work/tiktok-growth"
+    }
+  },
+  "about": {
+    "summary": "<p>Creator-first marketer and builder. I turn ideas into working tools and content that converts.</p>",
+    "bullets": [
+      "UGC ads and short-form scripting",
+      "Influencer partnerships and performance loops",
+      "AI tools in Python and FastAPI",
+      "Video pipelines with FFmpeg"
+    ],
+    "skills": [
+      {
+        "category": "Strategy",
+        "items": [
+          "Content strategy",
+          "Social growth",
+          "Influencer marketing",
+          "UGC ads"
+        ]
+      },
+      {
+        "category": "Production",
+        "items": [
+          "Scripting",
+          "On-camera",
+          "Editing",
+          "Thumbnails",
+          "Hooks and CTAs"
+        ]
+      },
+      {
+        "category": "AI & Code",
+        "items": [
+          "Python",
+          "FastAPI",
+          "FFmpeg",
+          "WhisperX",
+          "Next.js",
+          "Workers"
+        ]
+      },
+      {
+        "category": "Ops",
+        "items": [
+          "A/B testing",
+          "Analytics",
+          "Prompt design",
+          "Workflow design"
+        ]
+      }
+    ],
+    "skillsProgress": [
+      { "name": "Content Strategy", "level": 95, "category": "Strategy" },
+      { "name": "Social Media Growth", "level": 90, "category": "Strategy" },
+      { "name": "Influencer Marketing", "level": 88, "category": "Strategy" },
+      { "name": "Video Production", "level": 85, "category": "Production" },
+      { "name": "Python Development", "level": 80, "category": "Technical" },
+      { "name": "AI Integration", "level": 75, "category": "Technical" },
+      { "name": "Analytics & Data", "level": 82, "category": "Operations" }
+    ],
+    "timeline": [
+      {
+        "title": "Director/Owner",
+        "company": "Tony Destin LLC",
+        "location": "Philadelphia, PA",
+        "startDate": "October 2020",
+        "endDate": null,
+        "current": true,
+        "description": [
+          "Consulted and managed 7+ personal brand accounts while growing a group brand from 300K to 3.1M followers",
+          "Generated over 7M impressions and 2K in TikTok, scaled engagement, achieving 7M views on a single TikTok campaign",
+          "Published 1,700+ video campaigns across YouTube, TikTok, Instagram, and Facebook, averaging 250K views per video",
+          "Produced, directed, and executed 500+ paid social campaigns for brands such as Visa, TurboTax, and Honkai Star Rail"
+        ]
+      },
+      {
+        "title": "Content and Community Manager Consultant",
+        "company": "Phigital",
+        "location": "Remote",
+        "startDate": "Jan 2024",
+        "endDate": "May 2024",
+        "description": [
+          "Moderated and engaged a 30K+ member Telegram community, implementing retention strategies",
+          "Developed a 3-step YouTube content strategy, optimizing video planning and audience growth",
+          "Designed promotional graphics for Instagram and LinkedIn, driving an engagement boost of 100K+ impressions"
+        ]
+      },
+      {
+        "title": "Project Assistant",
+        "company": "Flouers",
+        "location": "Remote",
+        "startDate": "Jul 2020",
+        "endDate": "Sep 2020",
+        "description": [
+          "Led high-impact outreach efforts, resulting in 2000+ outreach messages in 10 weeks",
+          "Analyzed market trends and audience demographics in the battle rap industry to identify lucrative sponsorship opportunities",
+          "Produced reports on battle rap culture, identifying key sponsors and event opportunities"
+        ]
+      }
+    ],
+    "funFacts": [
+      "🎬 Produced over 1,700 video campaigns across all major platforms",
+      "📈 Scaled a brand from 300K to 3.1M followers in under 4 years",
+      "🤖 Built AI tools that process thousands of content pieces daily",
+      "🎯 Achieved 7M views on a single TikTok campaign",
+      "📊 Generated over 250K average views per video",
+      "🎓 Self-taught Python developer with production-ready applications"
+    ],
+    "headshot": {
+      "src": "/images/about/headshot.jpg",
+      "alt": "Tony headshot"
+    },
+    "faqs": [
+      {
+        "question": "What do you focus on?",
+        "answer": "<p>I ship MVPs fast, then iterate. I pick the simplest path that scales.</p>"
+      },
+      {
+        "question": "How do you work?",
+        "answer": "<p>Small scopes, tight loops, visible results. I document as I build.</p>"
+      }
+    ],
+    "title": "About Tony Destin",
+    "experience": [
+      {
+        "role": "Social Media Strategist and Influencer",
+        "company": "Independent",
+        "duration": "Jan 2023 – Present",
+        "location": "Philadelphia, PA",
+        "responsibilities": [
+          "Led UGC campaigns with multi-million view outcomes",
+          "Scaled accounts with data-backed iterations",
+          "Delivered scripts, edits, and performance reviews for brands and apps"
+        ]
+      },
+      {
+        "role": "AI Engineer and Tooling",
+        "company": "Independent",
+        "duration": "Jan 2024 – Present",
+        "location": "Philadelphia, PA",
+        "responsibilities": [
+          "Built Media Downloader MVP in 6 hours",
+          "Shipped Flask and FastAPI services that process and brand videos",
+          "Automated cross-post flows and content prep"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "AI, Python, and Growth Marketing",
+        "institution": "Self-directed",
+        "duration": "",
+        "description": "Projects in FastAPI, FFmpeg, and Next.js; Prompt libraries for UGC and ad scripts; Deployment on Cloudflare and Vercel"
+      }
+    ]
+  },
+  "highlights": [
+    {
+      "label": "MVP speed",
+      "value": "Built a working app in 6 hours",
+      "desc": "From blank repo to live demo"
+    },
+    {
+      "label": "Audience work",
+      "value": "Creator focused",
+      "desc": "Scripting, UGC, and ad loops"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Chen",
+      "role": "Marketing Director",
+      "company": "TechFlow",
+      "content": "Tony's strategic approach to content creation helped us achieve a 300% increase in engagement. His understanding of both the creative and technical sides is unmatched.",
+      "rating": 5,
+      "avatar": "/images/testimonials/sarah.jpg"
+    },
+    {
+      "name": "Marcus Johnson",
+      "role": "Brand Manager",
+      "company": "GameStudio",
+      "content": "Working with Tony was a game-changer. His UGC campaigns generated over 2M views and significantly boosted our user acquisition.",
+      "rating": 5,
+      "avatar": "/images/testimonials/marcus.jpg"
+    },
+    {
+      "name": "Emily Rodriguez",
+      "role": "CEO",
+      "company": "CreativeAgency",
+      "content": "Tony's ability to scale content production while maintaining quality is incredible. He delivered 500+ campaigns on time and on budget.",
+      "rating": 5,
+      "avatar": "/images/testimonials/emily.jpg"
+    }
+  ],
+  "projectCategories": ["UGC Campaigns", "Social Media", "AI Tools", "Brand Strategy", "Video Production"],
+  "workedWith": [
+    { "name": "Cookie Run: Kingdom", "logo": { "src": "/images/logos/cookierun.png", "alt": "Cookie Run logo" }, "url": "https://www.cookierun.com" },
+    { "name": "Chumba Casino", "logo": { "src": "/images/logos/chumba.png", "alt": "Chumba Casino logo" }, "url": "https://www.chumbacasino.com" },
+    { "name": "Zombie.io", "logo": { "src": "/images/logos/zombieio.png", "alt": "Zombie.io logo" }, "url": "https://zombie.io" },
+    { "name": "Grammarly", "logo": { "src": "/images/logos/grammarly.png", "alt": "Grammarly logo" }, "url": "https://www.grammarly.com" },
+    { "name": "Candy Crush", "logo": { "src": "/images/logos/candycrush.png", "alt": "Candy Crush logo" }, "url": "https://www.candycrushsaga.com" }
+  ],
+  "caseStudies": [
+    {
+      "slug": "cookie-run-kingdom",
+      "title": "Cookie Run: Kingdom",
+      "year": "2024",
+      "cover": { "src": "/images/work/cookierun/cover.png", "alt": "Cookie Run UGC ad cover" },
+      "summary": "UGC creative that drove outsized views and clicks with simple hooks and fast cuts.",
+      "metrics": [
+        { "label": "Views", "value": "16.1M+" },
+        { "label": "Clicks", "value": "53.8K+" },
+        { "label": "Conversions", "value": "1.24K+" }
+      ],
+      "whyItWorks": [
+        "Strong hook",
+        "No-friction CTA",
+        "Real player POV",
+        "Casual gamer targeting"
+      ],
+      "media": [],
+      "links": {}
+    },
+    {
+      "slug": "chumba-casino",
+      "title": "Chumba Casino",
+      "year": "2024",
+      "cover": { "src": "/images/work/chumba/cover.png", "alt": "Chumba UGC ad cover" },
+      "summary": "High-CTR creative with repetition and clear incentive.",
+      "metrics": [
+        { "label": "Impressions", "value": "1M+" },
+        { "label": "Clicks", "value": "18K+" },
+        { "label": "Conversions", "value": "10K+" }
+      ],
+      "whyItWorks": [
+        "Hook and repetition",
+        "No-download CTA",
+        "Exclusive incentive",
+        "Casual player targeting"
+      ],
+      "media": [],
+      "links": {}
+    },
+    {
+      "slug": "zombie-io",
+      "title": "Zombie.io",
+      "year": "2024",
+      "cover": { "src": "/images/work/zombieio/cover.png", "alt": "Zombie.io UGC ad cover" },
+      "summary": "Entertaining and useful creative that turned tips into clicks.",
+      "metrics": [
+        { "label": "Impressions", "value": "1M+" },
+        { "label": "Clicks", "value": "30K+" },
+        { "label": "Conversions", "value": "2.3K+" }
+      ],
+      "whyItWorks": [
+        "Relatable opener",
+        "Educational tips",
+        "Exclusive rewards",
+        "Mechanics explained"
+      ],
+      "media": [],
+      "links": {}
+    },
+    {
+      "slug": "grammarly",
+      "title": "Grammarly",
+      "year": "2024",
+      "cover": { "src": "/images/work/grammarly/cover.png", "alt": "Grammarly ad cover" },
+      "summary": "Problem-solution framing with a clean CTA.",
+      "metrics": [
+        { "label": "Impressions", "value": "1M+" },
+        { "label": "Clicks", "value": "21K+" }
+      ],
+      "whyItWorks": [
+        "Relatable hook",
+        "Conversational tone",
+        "Clear value",
+        "Aspirational CTA"
+      ],
+      "media": [],
+      "links": {}
+    },
+    {
+      "slug": "candy-crush",
+      "title": "Candy Crush",
+      "year": "2024",
+      "cover": { "src": "/images/work/candycrush/cover.png", "alt": "Candy Crush All-Stars ad cover" },
+      "summary": "Timely challenge framing with humor and strong cues.",
+      "metrics": [
+        { "label": "Views", "value": "4.9M+" },
+        { "label": "Likes", "value": "355K+" },
+        { "label": "Shares", "value": "10K+" }
+      ],
+      "whyItWorks": [
+        "Timely and event-driven",
+        "Humor and relatability",
+        "Strong visual and audio cues",
+        "Community engagement"
+      ],
+      "media": [
+        { "type": "link", "src": "https://www.tiktok.com/@tony_destin/video/7350852762860539179", "alt": "TikTok video" }
+      ],
+      "links": {}
+    }
+  ],
+  "systems": [
+    {
+      "slug": "video-branding-automation",
+      "title": "Video Branding Automation",
+      "subtitle": "Batch watermarks, LUTs, captions, outros",
+      "cover": {
+        "src": "/images/systems/branding/cover.png",
+        "alt": "Automation pipeline diagram"
+      },
+      "stack": [
+        "Flask",
+        "FFmpeg",
+        "Python"
+      ],
+      "outcomes": [
+        "Hands free posting",
+        "Reliable renders"
+      ],
+      "repo": "https://github.com/limmieo/brandflow-Ai"
+    },
+    {
+      "slug": "ai-video-repurpose",
+      "title": "AI Video Repurposing System",
+      "subtitle": "Clips, captions, and posting",
+      "cover": {
+        "src": "/images/systems/repurpose/cover.png",
+        "alt": "Repurpose system diagram"
+      },
+      "stack": [
+        "Python",
+        "FFmpeg",
+        "ChatGPT API"
+      ],
+      "outcomes": [
+        "Less manual editing",
+        "Faster turnarounds"
+      ],
+      "repo": "TODO"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Add name",
+      "role": "Title, Company",
+      "photo": {
+        "src": "/images/testimonials/name.jpg",
+        "alt": "Photo of reviewer"
+      },
+      "quote": "Short quote about working with Tony."
+    }
+  ],
+  "contact": {
+    "email": "tonydestinpromo@gmail.com",
+    "note": "Open to contract and full time work. Remote friendly."
+  }
+}
