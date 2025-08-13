@@ -64,3 +64,8 @@ pnpm-debug.log*
 # Misc
 *.local
 *.secret.*
+
+# Personal content/assets (do not publish)
+src/app/*.pdf
+public/content/content.backup.*.json
+public/images/company-logos/
