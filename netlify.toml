@@ -1,9 +1,33 @@
 [build]
-  command = "next build"
+  command = "npm install && next build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "18"
+  # Enable Next.js build caching
+  NEXT_CACHE = "true"
+
+# Cache configuration for faster builds
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+# Cache node_modules and .next for faster rebuilds
+[[plugins]]
+  package = "netlify-plugin-cache"
+  
+  [plugins.inputs]
+    paths = [ "node_modules", ".next/cache" ]

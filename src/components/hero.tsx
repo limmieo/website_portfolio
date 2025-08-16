@@ -66,6 +66,14 @@ export function Hero({ name, roles, tagline, taglines, ctaPrimary, ctaSecondary,
               ) : (
                 <span>{tagline}</span>
               )}
+              
+              <p className="flex items-center text-sm text-muted-foreground mt-3">
+                <span className="relative mr-2 inline-flex h-2 w-2 items-center justify-center">
+                  <span className="absolute inline-flex h-3 w-3 rounded-full bg-green-400 opacity-75 animate-ping"></span>
+                  <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
+                </span>
+                Available for full-time roles and projects
+              </p>
             </motion.div>
             
             <motion.div 
@@ -82,63 +90,56 @@ export function Hero({ name, roles, tagline, taglines, ctaPrimary, ctaSecondary,
                   </Link>
                 </Button>
               )}
-              <Button asChild variant="outline" size="lg">
-                <Link href={ctaSecondary.href} className="flex items-center">
-                  {ctaSecondary.text}
-                  <Download className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
+              {featuredProject && (
+                <motion.div
+                  className="mt-8 rounded-lg border bg-card p-4"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                >
+                  <div className="flex items-center mb-2">
+                    <Star className="h-4 w-4 text-yellow-500 mr-2" />
+                    <span className="text-sm font-medium text-primary">Featured Project</span>
+                  </div>
+                  <h3 className="font-semibold text-foreground">{featuredProject.title}</h3>
+                  <p className="text-sm text-muted-foreground mt-1">{featuredProject.description}</p>
+                  {/^https?:\/\//.test(featuredProject.link) ? (
+                    <a
+                      href={featuredProject.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-sm text-primary hover:underline mt-2"
+                    >
+                      {featuredProject.link.includes('github.com') ? 'View on GitHub' : 'View Project'}
+                      <ArrowRight className="ml-1 h-3 w-3" />
+                    </a>
+                  ) : (
+                    <Link 
+                      href={featuredProject.link}
+                      className="inline-flex items-center text-sm text-primary hover:underline mt-2"
+                    >
+                      View Project <ArrowRight className="ml-1 h-3 w-3" />
+                    </Link>
+                  )}
+                </motion.div>
+              )}
             </motion.div>
             
-            <motion.div 
-              className="pt-8"
+
+
+            <motion.div
+              className="w-full flex justify-center mt-12"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
             >
-              <p className="flex items-center text-sm text-muted-foreground">
-                <span className="relative mr-2 inline-flex h-2 w-2 items-center justify-center">
-                  <span className="absolute inline-flex h-3 w-3 rounded-full bg-green-400 opacity-75 animate-ping"></span>
-                  <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
-                </span>
-                Available for full-time roles and projects
-              </p>
+              <Button asChild variant="outline" size="lg" className="px-16 py-10 text-2xl font-extrabold shadow-lg hover:shadow-xl transform transition-all duration-200 hover:scale-105 rounded-xl">
+                <a href="mailto:tonydestinprmo@gmail.com" className="flex items-center">
+                  {ctaSecondary.text}
+                  <Mail className="ml-5 h-8 w-8" />
+                </a>
+              </Button>
             </motion.div>
-
-            {/* Featured Project */}
-            {featuredProject && (
-              <motion.div
-                className="mt-8 rounded-lg border bg-card p-4"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.5 }}
-              >
-                <div className="flex items-center mb-2">
-                  <Star className="h-4 w-4 text-yellow-500 mr-2" />
-                  <span className="text-sm font-medium text-primary">Featured Project</span>
-                </div>
-                <h3 className="font-semibold text-foreground">{featuredProject.title}</h3>
-                <p className="text-sm text-muted-foreground mt-1">{featuredProject.description}</p>
-                {/^https?:\/\//.test(featuredProject.link) ? (
-                  <a
-                    href={featuredProject.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-sm text-primary hover:underline mt-2"
-                  >
-                    {featuredProject.link.includes('github.com') ? 'View on GitHub' : 'View Project'}
-                    <ArrowRight className="ml-1 h-3 w-3" />
-                  </a>
-                ) : (
-                  <Link 
-                    href={featuredProject.link}
-                    className="inline-flex items-center text-sm text-primary hover:underline mt-2"
-                  >
-                    View Project <ArrowRight className="ml-1 h-3 w-3" />
-                  </Link>
-                )}
-              </motion.div>
-            )}
           </div>
           
           <motion.div 

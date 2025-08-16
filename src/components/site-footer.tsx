@@ -13,12 +13,12 @@ type SocialLink = {
 const socialLinks: SocialLink[] = [
   {
     name: 'Email',
-    href: 'mailto:hi@tonydestin.com',
+    href: 'mailto:tonydestinprmo@gmail.com',
     icon: Mail,
   },
   {
     name: 'GitHub',
-    href: 'https://github.com/tonydestin',
+    href: 'https://github.com/limmieo',
     icon: Github,
   },
   {
@@ -50,9 +50,9 @@ const footerLinks: FooterLink[] = [
   {
     title: 'Connect',
     items: [
-      { title: 'GitHub', href: 'https://github.com/tonydestin', external: true },
+      { title: 'GitHub', href: 'https://github.com/limmieo', external: true },
       { title: 'LinkedIn', href: 'https://linkedin.com/in/tonydestin', external: true },
-      { title: 'Email', href: 'mailto:hi@tonydestin.com' },
+      { title: 'Email', href: 'mailto:tonydestinprmo@gmail.com' },
     ],
   },
   {

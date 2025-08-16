@@ -109,6 +109,9 @@ export default function Home() {
       title = String(edu.institution).trim()
       company = degRaw
     }
+    const companyUrl = /kutztown/i.test(degRaw) || /kutztown/i.test(title)
+      ? 'https://www.kutztown.edu/'
+      : undefined
     return {
       title,
       company,
@@ -117,6 +120,7 @@ export default function Home() {
       endDate: '',
       description: edu.description ? [edu.description] : [],
       current: false,
+      companyUrl,
     }
   })
 
@@ -159,6 +163,14 @@ export default function Home() {
   const certList = Array.isArray((content as any).about?.certifications)
     ? (content as any).about.certifications
     : []
+  const certUrl = (name: string): string | undefined => {
+    const n = name.toLowerCase()
+    if (/meta/.test(n)) return 'https://www.facebook.com/business/learn/certification'
+    if (/google\s*analytics/.test(n)) return 'https://skillshop.exceedlms.com/student/catalog/list?category_ids=53-google-analytics'
+    if (/hootsuite/.test(n)) return 'https://education.hootsuite.com/certification'
+    return undefined
+  }
+
   const certItems = certList.map((c: any) => ({
     title: c.name,
     company: 'Certification',
@@ -167,6 +179,7 @@ export default function Home() {
     endDate: '',
     description: [],
     current: false,
+    url: certUrl(String(c.name || '')),
   }))
   certItems.sort(byNewest)
   const eduCertItems = [...eduItems, ...certItems]
@@ -254,7 +267,7 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className={`grid gap-6 ${showAllSystems || (content?.systems ?? []).length > 2 ? 'sm:grid-cols-2 lg:grid-cols-3' : 'sm:grid-cols-2'}`}>
+        <div className={`grid gap-6 items-stretch ${showAllSystems || (content?.systems ?? []).length > 2 ? 'sm:grid-cols-2 lg:grid-cols-3' : 'sm:grid-cols-2'}`}>
           {(content?.caseStudies ?? [])
             .slice(0, showAllWork ? undefined : 3)
             .map((project) => (
@@ -388,11 +401,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={`grid gap-6 ${showAllSystems || (content?.systems ?? []).length > 2 ? 'sm:grid-cols-2 lg:grid-cols-3' : 'sm:grid-cols-2'}`}>
+        <div className={`grid gap-6 items-stretch ${showAllSystems || (content?.systems ?? []).length > 2 ? 'sm:grid-cols-2 lg:grid-cols-3' : 'sm:grid-cols-2'}`}>
           {(content?.systems ?? [])
             .slice(0, showAllSystems ? undefined : 2)
             .map((system) => (
-              <div key={system.slug} className="group relative flex h-full flex-col overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-shadow">
+              <div key={system.slug} className="group relative flex h-full min-h-[280px] flex-col overflow-hidden rounded-lg border bg-background p-6 hover:shadow-lg transition-shadow">
                 <div className="flex flex-1 flex-col space-y-4">
                   <div className="flex items-start justify-between">
                     <div className="space-y-1">

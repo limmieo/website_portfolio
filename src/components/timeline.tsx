@@ -11,6 +11,9 @@ interface TimelineItem {
   endDate?: string
   description: string[]
   current?: boolean
+  // Optional links
+  url?: string // primary link (usually wraps title)
+  companyUrl?: string // secondary link (wraps company/degree line)
 }
 
 interface TimelineProps {
@@ -55,7 +58,18 @@ export function Timeline({ items, className, dense = false }: TimelineProps) {
                 <div className={`rounded-lg bg-white dark:bg-gray-800 ${cardPadding} shadow-md border border-gray-200 dark:border-gray-700`}>
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                     <h3 className={`${titleSize} font-semibold text-gray-900 dark:text-white`}>
-                      {item.title}
+                      {item.url ? (
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:underline"
+                        >
+                          {item.title}
+                        </a>
+                      ) : (
+                        item.title
+                      )}
                     </h3>
                     {item.current && (
                       <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
@@ -66,7 +80,18 @@ export function Timeline({ items, className, dense = false }: TimelineProps) {
                   
                   {item.company && item.company.trim().length > 0 && item.company.trim() !== item.title.trim() && (
                     <div className={`${companySize} font-medium text-blue-600 dark:text-blue-400 mb-2`}>
-                      {item.company}
+                      {item.companyUrl ? (
+                        <a
+                          href={item.companyUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:underline"
+                        >
+                          {item.company}
+                        </a>
+                      ) : (
+                        item.company
+                      )}
                     </div>
                   )}
                   

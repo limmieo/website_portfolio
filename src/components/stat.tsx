@@ -14,9 +14,10 @@ export function Stat({ label, value, description, className }: StatProps) {
   return (
     <motion.div
       className={cn(
-        "group relative flex flex-col items-center justify-center rounded-xl border border-white/10",
-        "bg-gradient-to-b from-black/60 via-black/40 to-black/20 p-6 text-center shadow-sm ring-1 ring-black/20",
-        "transition-transform transition-shadow hover:shadow-md",
+        "group relative flex flex-col items-center justify-center rounded-xl border border-white/10 backdrop-blur-sm",
+        "bg-gradient-to-b from-neutral-950 via-neutral-900 to-neutral-800 p-6 text-center shadow-sm ring-1 ring-black/20",
+        "transition-transform transition-shadow transition-colors hover:shadow-lg hover:ring-2 hover:ring-primary/20",
+        "focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary/50",
         className
       )}
       initial={{ opacity: 0, y: 20 }}
